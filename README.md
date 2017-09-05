@@ -1,5 +1,15 @@
 # rxjs-socket.io
 
+# TODO
+
+- 提取服务到单独的文件夹
+
+# 已经完成的
+
+1. 
+
+
+
 Here is how to run the code
 
 Server:
