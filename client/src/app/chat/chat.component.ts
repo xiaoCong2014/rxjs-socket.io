@@ -3,8 +3,8 @@ import { ChatService }       from '../service/chat.service';
 
 @Component({
   selector: 'chat-component',
-  templateUrl: './chat.component.html',
-  providers: [ ChatService ]// 只是局部引入 , 没有全局引入
+  templateUrl: './chat.component.html'// ,
+  // providers: [ ChatService ]// 只是局部引入 , 没有全局引入
 })
 export class ChatComponent implements OnInit, OnDestroy {
   private messages = [];
